@@ -38,3 +38,17 @@ To run this project, you need to have:
 
 ```bash
 git clone https://github.com/Bunkerbuster/bubble-sort.git
+
+###Example
+
+Here's an example of how to use the Bubble Sort algorithm in C#:
+
+csharp
+
+int[] arr = { 64, 34, 25, 12, 22, 11, 90 };
+
+// Sort the array using Bubble Sort
+BubbleSortArray(arr);
+
+// Print the sorted array
+PrintArray(arr);
