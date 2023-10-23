@@ -41,11 +41,9 @@ git clone https://github.com/Bunkerbuster/bubble-sort.git
 ```
 
 
-###Example
+### Example
 
 Here's an example of how to use the Bubble Sort algorithm in C#:
-
-csharp
 
 int[] arr = { 64, 34, 25, 12, 22, 11, 90 };
 
