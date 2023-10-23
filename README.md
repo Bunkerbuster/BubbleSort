@@ -73,6 +73,3 @@ BubbleSortArray(arr);
     // {34,64}
  }
 ```
-
-// Print the sorted array
-PrintArray(arr);
