@@ -6,7 +6,7 @@ namespace BubbleSort.Controllers
     [Route("[controller]")]
     public class BubbleSortController : ControllerBase
     {
-        private static readonly int[] _UnsortedArray = new[]  {  64, 34, 25, 12, 22, 11, 90,25,56,3,2,56,  };
+        private static readonly int[] _UnsortedArray = new[]  {  64, 34, 25, 12, 22, 11, 90  };
 
         private readonly IBubbleSortArray _IBubbleSortArray;
 
