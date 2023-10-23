@@ -38,7 +38,7 @@ To run this project, you need to have:
 
 ```bash
 git clone https://github.com/Bunkerbuster/bubble-sort.git
-```bash
+```
 
 
 ###Example
