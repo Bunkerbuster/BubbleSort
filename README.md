@@ -50,5 +50,29 @@ int[] arr = { 64, 34, 25, 12, 22, 11, 90 };
 // Sort the array using Bubble Sort
 BubbleSortArray(arr);
 
+```bash
+ //if the j value of the array is bigger (J = bigger, then J+1) then the next J value (j  + 1 value) 
+ // {64,34}
+ // we swap the values's
+ //In this case 64 is bigger then 34, en we need to swap these places
+ if (UnsortedArray[j] > UnsortedArray[j + 1])
+ {
+    // Swap arr[j] and arr[j + 1]
+    // we create a temp int, so we can place the the swapped value for save keeping
+    // we store int temp = 64
+    int temp = UnsortedArray[j];
+    // we swapping the values, the next value smaller then j > j+1
+    // 64 is replace with 34
+    // j = j+1
+    UnsortedArray[j] = UnsortedArray[j + 1];
+    // we replace the value of j+1 with the value of the temp
+    // j+1 = temp
+    // 34 is replced with 64
+    UnsortedArray[j + 1] = temp;
+    // the result is
+    // {34,64}
+ }
+```
+
 // Print the sorted array
 PrintArray(arr);
