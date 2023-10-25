@@ -1,6 +1,6 @@
 # Bubble Sort Algorithm
 
-Source : (Java example) https://www.youtube.com/watch?v=Dv4qLJcxus8&t=44s 
+Source : (Java example) https://www.youtube.com/watch?v=Dv4qLJcxus8 
 
 ![Bubble Sort](bubble-sort.png)
 
