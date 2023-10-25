@@ -1,5 +1,7 @@
 # Bubble Sort Algorithm
 
+Source : (Java example) https://www.youtube.com/watch?v=Dv4qLJcxus8&t=44s 
+
 ![Bubble Sort](bubble-sort.png)
 
 A simple implementation of the Bubble Sort algorithm in C#. Bubble Sort is a straightforward sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
