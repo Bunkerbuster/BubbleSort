@@ -20,6 +20,12 @@ A simple implementation of the Bubble Sort algorithm in C#. Bubble Sort is a str
 
 This project provides a basic example of the Bubble Sort algorithm implemented in C#. It's meant for educational purposes and to demonstrate how the algorithm works.
 
+bubble sort = pairs of adjacent elements are compared, and the elements swapped if they are not in order
+
+- Quadratic time O(n^2)
+- Smaller datasets not a big problem
+- the bigger the dataset the slower this algorithm becomes
+
 ## Usage
 
 Bubble Sort is a simple sorting algorithm that can be used to sort arrays of data in ascending or descending order. You can use the provided implementation as a reference or a starting point for your own sorting needs.
@@ -42,9 +48,7 @@ To run this project, you need to have:
 git clone https://github.com/Bunkerbuster/bubble-sort.git
 ```
 
-
 ### Example
-
 Here's an example of how to use the Bubble Sort algorithm in C#:
 
 int[] arr = { 64, 34, 25, 12, 22, 11, 90 };
